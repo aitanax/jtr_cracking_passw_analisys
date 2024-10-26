@@ -1,0 +1,6 @@
+Tiempo wordlist --rules: 00:38
+Tiempo incremental 4-5: 00:54
+Tiempo wordlist con appendnumbers_and_specials_simple: 01:41
+Tiempo wordlist con MyRule: 00:27
+Tiempo incremental 6: 22:02
+Tiempo total: 25:42

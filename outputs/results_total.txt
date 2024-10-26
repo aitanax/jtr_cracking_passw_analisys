@@ -1,0 +1,3 @@
+Contraseñas total crackeadas entre ambos Data Sets: 96769 contraseñas.
+Tiempo total de la ejecución: 28:03 // 1682 segundos.
+
