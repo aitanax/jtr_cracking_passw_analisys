@@ -26,9 +26,9 @@ def main():
     inicio = time.time()
     
     # Archivos de entrada y salida
-    archivo_passwords_cracked = 'outputs/passwords_cracked_foromotos.txt'
-    archivo_meneate = 'datasets/g22_meneate.txt'
-    archivo_resultados = 'outputs/passwords_cracked_meneate.txt'
+    archivo_passwords_cracked = 'g22_foromotos.txt'
+    archivo_meneate = 'g22_meneate_entrada.txt' # DataSet sin crackear 
+    archivo_resultados = 'g22_meneate.txt'
 
     # Cargar credenciales de archivos
     if not all(map(os.path.exists, [archivo_passwords_cracked, archivo_meneate])):
