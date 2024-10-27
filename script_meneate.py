@@ -19,7 +19,7 @@ def verificar_contraseña(contraseña, hash_contraseña):
 def procesar_usuario(usuario, contraseña, credenciales_meneate, resultados):
     """Procesa un usuario verificando la contraseña y guarda el resultado si coincide."""
     if usuario in credenciales_meneate and verificar_contraseña(contraseña, credenciales_meneate[usuario]):
-        resultados.append(f"{usuario}: {contraseña}\n")
+        resultados.append(f"{usuario}:{contraseña}\n")
 
 
 def main():
