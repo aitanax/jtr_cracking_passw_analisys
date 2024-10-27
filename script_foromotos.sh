@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Archivo final donde se guardarán las contraseñas finales
-output_file="passwords_cracked_foromotos.txt"
+output_file="g22_foromotos.txt"
 
 > "$output_file"
 
